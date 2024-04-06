@@ -42,6 +42,7 @@ function App() {
     <Route path='/doctors' element={<ServiceProviderSearchPage/>}/> 
     <Route path='/clinics' element={<ServiceProviderSearchPage/>}/> 
     <Route path='/medical_shop' element={<ServiceProviderSearchPage/>}/> 
+    <Route path='/medical_college' element={<ServiceProviderSearchPage/>}/> 
     <Route path='/animals_medical_shop' element={<ServiceProviderSearchPage/>}/> 
     <Route path='/blood_bank' element={<ServiceProviderSearchPage/>}/> 
     <Route path='/nurses' element={<ServiceProviderSearchPage/>}/> 

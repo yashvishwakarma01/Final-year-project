@@ -16,10 +16,6 @@ function Medication() {
       }}>
    <CardBody title='doctors' image={medication}/>
    <CardBody title='clinics' image={medication} />
-   <CardBody title='clinics' image={medication} />
-   <CardBody title='clinics' image={medication} />
-   <CardBody title='clinics' image={medication} />
-   <CardBody title='clinics' image={medication} />
    <CardBody title='medical_college'  image={medication} />
    <CardBody title='medical_shop'  image={medication} />
    <CardBody title='animals_medical_shop'  image={medication} />
