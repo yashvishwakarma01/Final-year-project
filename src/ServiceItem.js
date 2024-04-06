@@ -1,15 +1,14 @@
 import React from "react";
 import CardBody from "./CardBody";
-import edu from "./edu.jpg";
-import med from "./med.jpg";
-import foo from "./foo.jpg";
-import electrician from "./electrician.jpg";
-import rent from "./rent.jpg";
-import plumber from "./plumber.jpg";
+import edu from "./images/edu.jpg";
+import medication from "./images/medication.jpg";
+import food from "./images/food.jpg";
+import electrician from "./images/electrician.jpg";
+import rent from "./images/rent.jpg";
+import plumber from "./images/plumber.jpg";
 import labour from "./labour.jpg";
-import beauty from "./beauty.jpg";
+import beauty from "./images/beauty.jpg";
 import Banner from "./Banner";
-// import './App.css'
 function ServiceItem() {
   return (
     <>
@@ -23,17 +22,16 @@ function ServiceItem() {
           alignContent: "space-between",
           margin: "10px 35px",
           gap: "20px",
-          backgroundColor:'rgb(128, 188, 189)'
         }}
       >
-        <CardBody title={"Education"} image={edu} />
-        <CardBody title={"Medication"} image={med} />
-        <CardBody title={"Food"} image={foo} />
-        <CardBody title={"Beauty"} image={beauty} />
-        <CardBody title={"Plumber"} image={plumber} />
-        <CardBody title={"Labour"} image={labour} />
-        <CardBody title={"Electrician"} image={electrician} />
-        <CardBody title={"Rent"} image={rent} />
+        <CardBody title={"education"} image={edu} />
+        <CardBody title={"medication"} image={medication} />
+        <CardBody title={"food"} image={food} />
+        <CardBody title={"beauty"} image={beauty} />
+        <CardBody title={"plumber"} image={plumber} />
+        <CardBody title={"labour"} image={labour} />
+        <CardBody title={"electrician"} image={electrician} />
+        <CardBody title={"rent"} image={rent} />
       </div>
     </>
   );

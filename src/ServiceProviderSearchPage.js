@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const ServiceProviderSearchPage = () => {
    
     const loc=useLocation();
-    const serviceNeeded=loc.state;
+    const serviceNeeded=loc.state.toUpperCase();
   const [location, setLocation] = useState('');
   const [serviceProviders, setServiceProviders] = useState([]);
 
@@ -31,7 +31,7 @@ const ServiceProviderSearchPage = () => {
 
   return (
     <Container style={{marginBottom:'20vh'}}>
-      <h1 style={{textAlign:'center',color:'lightcoral'}}>Find Service Providers for {serviceNeeded} </h1>
+      <h1 style={{textAlign:'center',color:'lightcoral'}}>Find {serviceNeeded} nearby you </h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formLocation">
           <Form.Label>Location</Form.Label>

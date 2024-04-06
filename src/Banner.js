@@ -1,11 +1,11 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import restrauntbanner from './restrauntbanner.png'
-import electricianBanner  from './electricianBanner.png'
-import mason from './mason.jpg'
-import educationBanner from './educationBanner.png'
-import medicationBanner from './medicationBanner.jpg'
-import rentBanner from './rentBanner.jpg'
+import restrauntbanner from './images/restrauntbanner.png'
+import electricianBanner  from './images/electricianBanner.png'
+import mason from './images/mason.jpg'
+import educationBanner from './images/educationBanner.png'
+import medicationBanner from './images/medicationBanner.jpg'
+import rentBanner from './images/rentBanner.jpg'
 
 function Banner() {
   return (

@@ -5,13 +5,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./clickEazzy.png";
 
+
 function Bar() {
   return (
     <div>
       <Navbar expand="lg" style={{ backgroundColor: "rgb(37, 150, 190)" }}>
         <Container fluid>
           <Navbar.Brand href="/home">
-            <img src={logo} style={{ width: "3.5vw" }}></img>
+            <img src={logo} style={{ width: "3.5vw" }} alt="logo"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

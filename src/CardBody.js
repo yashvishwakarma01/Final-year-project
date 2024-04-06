@@ -8,14 +8,15 @@ function CardBody(props) {
  
   return (
     <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src={props.image} alt='education' />
+      <Card.Img variant="top" src={props.image} alt={props.title.toUpperCase()} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{props.title.toUpperCase()}</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" onClick={()=> navigate('/search',{state:props.title})}>Go to {props.title.toUpperCase()}</Button>
+        <Button variant="primary" onClick={()=> navigate(`/${props.title}`,{state:props.title})}>Go to {props.title.toUpperCase()}</Button>
+        {/* <Button variant="primary" onClick={()=> navigate('/search',{state:props.title})}>Go to {props.title.toUpperCase()}</Button> */}
       </Card.Body>
     </Card>
   );
